@@ -1,14 +1,19 @@
 body {
-    background-color: purple;
-    
+    color: #660099;
 }
-h1 {
-    background-color: purple;
-    color: white;   
+ 
+h1,h2,h3 {
+    font-family: Impact, sans-serif;
 }
-ul {
-    background-color: silver;  
+ 
+ul,ol {
+    font-family: helvetica, sans-serif;
 }
-p {
-    color: fuchsia;  
-    }
+ 
+h2,ul {
+    font-style: italic;
+}
+ 
+h3,ol {
+    text-decoration: underline;
+}
