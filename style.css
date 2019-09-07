@@ -1,19 +1,21 @@
-body {
-    color: #660099;
-}
- 
-h1,h2,h3 {
-    font-family: Impact, sans-serif;
-}
- 
-ul,ol {
-    font-family: helvetica, sans-serif;
-}
- 
-h2,ul {
-    font-style: italic;
-}
- 
-h3,ol {
+p,ul,ol,h2   {
+    background-color: #ccffcc;
+    color: #336600;
+  }
+  
+   h1   {
+    background-color: #336600;
+    color: #ccffcc;
+  }
+  
+  p  {
+    border: 3px solid;
+  }
+  
+   ul,ol  {
+    background-color: #ffff99;
+  }
+  
+   h1,h2  {
     text-decoration: underline;
-}
+  }
