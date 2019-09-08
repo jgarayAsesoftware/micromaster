@@ -1,21 +1,64 @@
-p,ul,ol,h2   {
-    background-color: #ccffcc;
-    color: #336600;
-  }
-  
-   h1   {
-    background-color: #336600;
-    color: #ccffcc;
-  }
-  
-  p  {
-    border: 3px solid;
-  }
-  
-   ul,ol  {
-    background-color: #ffff99;
-  }
-  
-   h1,h2  {
-    text-decoration: underline;
-  }
+body {
+ background-color: #ffff99;
+ font-family: Helvetica, sans-serif;
+}
+ 
+h1 {
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 10px;
+ padding-right: 10px;
+ border-width: 3px;
+ border-style: solid;
+ border-color: #ff6600;
+ color: #ff6600;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ 
+ 
+h2 {
+  padding-top: 30px;
+ padding-bottom: 15px;
+ padding-left: 10px;
+ padding-right: 10px;
+ background-color: #ff6600;
+ color: #ffff99;
+ font-family: 'Courier New', Courier, monospace;
+}
+ 
+ol {
+  padding-top: 5px;
+ padding-bottom: 5px;
+ padding-left: 45px;
+ padding-right: 15px;
+ background-color: #ffcc00;
+}
+ 
+li {
+  font-weight: bold; 
+  color: #ffff99;
+}
+ 
+p {
+  padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 10px;
+ padding-right: 10px;
+  border-width: 3px;
+ border-style: dotted;
+ border-color: #ffcc00;
+}
+ 
+
+/*
+Here are the color HEX code used above:
+
+light yellow: #ffff99
+medium yellow: #ffcc00
+orange: #ff6600
+Here are the fonts used above:
+
+Helvetica
+Impact
+Courier New
+*/
