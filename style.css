@@ -1,24 +1,43 @@
 body {
-  background-color: #00ccff;
+  background-color: #006666; 
   color: white;
-  font-family: Helvetica, sans-serif;
-  margin: 35px 25px 0px 25px;
 }
-p,h2 {
-  padding: 10px;
-}
-.topSection{
-  background-color: #3300cc;
-  color: #cccccc;
-}
-.bottomSection {
-  background-color: #cccccc;
-  color: #3300cc;
-}
-#importantItem {
+h1:hover {
   text-decoration: underline;
-  color: #99ff99;
 }
-#unimportantItem {
-  color: gray;
+input {
+  border: 3px white solid;
+}
+input:hover {
+  border: 3px yellow solid;
+}
+input:focus {
+  background-color: yellow;
+  border: 3px yellow solid;
+}
+button {
+  background-color: white;
+  color: #006666;
+  border: 3px white solid;
+}
+button:hover {
+  background-color: #006666;
+  color: white;
+}
+button:active {
+  background-color: #33cc99;
+}
+li:hover {
+  background-color: white;
+  color: #006666;
+}
+li:active {
+  background-color: #33cc99;
+  color: white;
+}
+a {
+  color: white;
+}
+a:visited {
+  color: #33cc99;
 }
