@@ -1,43 +1,41 @@
 body {
-  background-color: #006666; 
-  color: white;
+  font-family: Tahoma, sans-serif; 
 }
-h1:hover {
-  text-decoration: underline;
+
+header, article, footer {
+  border: 10px #E9B000 solid;
+  margin: 30px;
 }
-input {
-  border: 3px white solid;
+
+h1 {
+  color: #E86E80;
 }
-input:hover {
-  border: 3px yellow solid;
+
+article h1 {
+  background-color: #E86E80;
+  color: #FFFFFF;
 }
-input:focus {
-  background-color: yellow;
-  border: 3px yellow solid;
+
+p {
+  background-color: #008F95;
+  color: #FFFFFF;
 }
-button {
-  background-color: white;
-  color: #006666;
-  border: 3px white solid;
+
+article p {
+  background-color: #FFFFFF;
+  color: #008F95;
 }
-button:hover {
-  background-color: #006666;
-  color: white;
+
+ol {
+  background-color: #E24E43;
+  color: #FFFFFF;
 }
-button:active {
-  background-color: #33cc99;
+
+article ol {
+  background-color: #FFFFFF;
+  color: #E24E43;
 }
-li:hover {
-  background-color: white;
-  color: #006666;
-}
-li:active {
-  background-color: #33cc99;
-  color: white;
-}
-a {
-  color: white;
-}
-a:visited {
-  color: #33cc99;
+
+article ol ol {
+  border: 5px solid #E24E43;
 }
