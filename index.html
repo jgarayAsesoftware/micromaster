@@ -5,62 +5,37 @@
         <link rel="stylesheet" href="style.css">
         <meta charset="utf-8">
     </head>
-<body>
-  <header>
-  <h1>Title</h1>
-  <p>
-    When you use two selectors separated by a space on a rule, you scope the rule to the elements that correspond to the selector on the right that are INSIDE the elements that correspond to the selector on the left. Let's say we have the following HTML:
-  </p>
-  <ol>
-    <li>Secton 1</li>
-    <li>Secton 2</li>
-  </ol>
-  </header>
-  <article>
-    <h1>Section 1</h1>
-    <ol>
-      <li>item 1</li>
-      <li>
-        item 2
-        <ol>
-          <li> sub item 1 </li>
-          <li> sub item 2 </li>
-          <li> sub item 3 </li>
-          <li> sub item 4 </li>
-        </ol>
-      </li>
-      <li>item 3</li>
-    </ol>
-    <p>
-     If we applied the following CSS rule then the images INSIDE the paragraph would be set to a width of 100px, but that rule would not apply to the images outside the paragraph. Below is a diagram of the given HTML with the two imgs that will styled by the above rule are indicated by the red arrows. 
-    </p>
-  </article>
-    <article>
-    <h1>Section 2</h1>
-    <ol>
-      <li>
-        item 1
-        <ol>
-          <li> sub item 1 </li>
-          <li> sub item 2 </li>
-        </ol>
-      </li>
-      <li>item 2</li>
-    </ol>
-    <p>
-      As your Web pages get more complex, contextual selectors become more important, because it won't scale to apply classes and IDs to each individual item. Contextual selection becomes especially useful when you structure your HTML with section tags like header, section, article and footer. 
-
-Pay attention to the styles of the paragraphs and lists in the following example:
-    </p>
-  </article>
-  <footer>
-    <h1>Footer</h1>
-    <ol>
-      <li>link 1</li>
-      <li>link 2</li>
-      <li>link 3</li>
-      <li>link 4</li>
-    </ol>
-  </footer>
-</body>
+  <body>
+    <header>
+      <h1>paragraph 1</h1>
+      <p>
+        Now that you've learned all these different selectors, you've probably noticed that there is nothing preventing one from creating rules that overlap, meaning creating rules that apply style to the same HTML elements. In fact, it's very common for HTML elements on a page to have multiple CSS rules competing for importance. 
+      </p>
+    </header>
+    <section>
+      <h1>paragraph 2</h1>
+      <p>
+        Thanks to the "cascading" part of "Cascading Style Sheets", this isn't a problem. That is because CSS has a way to figure out which rule "wins" when styles are conflicting. CSS actually computes a "weight" for each style rule and the one with the greatest weight wins. If you want all the specifics on how this weight is computed you can read more here. For simplicity's sake, the most specific rule wins! 
+      </p>
+      <article>
+        <h1>paragraph 3</h1>
+        <p>
+          A rule is generally more specific if it applies to a fewer number of elements than another rule that encompasses those elements. The more facets a rule has the more specific it is.
+When pseudo-classes are applied this is more specific than without the pseudo-class. For example, p:hover will win over just p. 
+        </p>
+        <h1>paragraph 4</h1>
+        <p id="specific">
+Contextual selection is more specific because it scopes the rule to elements within a certain subset of those on the page. For example, a rule that applies to all the paragraphs within articles is more specific than a rule that applies to all the paragraphs on the page.
+IDs are most specific because you are directly applying them to the desired HTML element. The rule based on an ID will always win over other rules
+        </p>
+      </article>
+    </section>
+    <footer>
+      <h1>paragraph 5</h1>
+      <p>
+If two rules have the exact same weight, the one that comes later in the CSS document is what is applied.
+You can use the "!important" modifier on a CSS property so that it will guarantee that style will be applied. This is a way for you to override the calculated weight.
+      </p>
+    </footer>
+  </body>
 </html>
