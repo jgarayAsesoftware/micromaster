@@ -1,109 +1,73 @@
 body {
-  background-color: #ffff99;
-  font-family: Helvetica, sans-serif;
- }
-  
- .titulo1 {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-width: 3px;
-  border-style: solid;
-  border-color: #ff6600;
-  color: #ff6600;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
- }
-  
-  
- .titulo2 {
-   padding-top: 30px;
-  padding-bottom: 15px;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-color: #ffcc00;
-  color: #ffff99;
-  font-family: 'Courier New', Courier, monospace;
- }
- h2 {
-  padding-top: 30px;
- padding-bottom: 15px;
- padding-left: 10px;
- padding-right: 10px;
- background-color: #ff6600;
- color: #ffff99;
- font-family: 'Courier New', Courier, monospace;
+  font-family: Tahoma;
+  margin: 0px;
 }
 
-h3 {
-  padding-top: 20px;
- padding-bottom: 10px;
- padding-left: 10px;
- padding-right: 10px;
- background-color: #ff6600;
- color: #ffff99;
- font-family: 'Courier New', Courier, monospace;
+header {
+  background-color: #EC576B;
+  color: white;
+  border-bottom: 5px #FEDC3D solid;
+  margin-bottom: 20px;
 }
- 
-ol,ul {
-  padding-top: 5px;
- padding-bottom: 5px;
- padding-left: 45px;
- padding-right: 15px;
- background-color: #ffcc00;
+
+header h1 {
+  border-bottom: 2px #FFFFFF solid;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  height: 75px;
+  line-height: 2;
 }
- 
-li {
-  font-weight: bold; 
-  color: #ffff99;
-  font-family: 'Courier New', Courier, monospace;
- }
 
- section p:hover{
-  background-color: #ffcc00;
- }
+header p {
+  border-bottom: 2px #FFFFFF solid;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+}
 
- #frenchFries{
-   color: black;
- }
+section {
+  background-color: #FEDC3D;
+  max-width: 75%;
+  min-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
 
- section a:active{
-   background-color: aqua;
- }
-  
- ol,ul {
-   padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 45px;
-  padding-right: 15px;
-  background-color: #ffcc00;
- }
-  
- li {
-   font-weight: bold; 
-   color: #ffff99;
- }
-  
- p {
-   padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-   border-width: 3px;
-  border-style: dotted;
-  border-color: #ffcc00;
- }
-  
- 
- /*
- Here are the color HEX code used above:
- 
- light yellow: #ffff99
- medium yellow: #ffcc00
- orange: #ff6600
- Here are the fonts used above:
- 
- Helvetica
- Impact
- Courier New
- */
+h2 {
+  text-align: center;
+  border-bottom: 5px #000000 solid;
+  padding: 30px 30px;
+  margin: 0 auto;
+  width: 50%;
+}
+
+article {
+  max-width: 40%;
+  background-color: #FFFFFF;
+  text-align: justify;
+  margin: 50px 50px;
+  padding: 10px 15px 30px 15px;
+  text-align: right;
+}
+
+#leftP {
+  margin-left: 10%;
+}
+
+#rightP {
+  margin-left: 50%;
+}
+
+footer {
+  background-color: #4EC5C1;
+  border-top: 5px #FEDC3D solid;
+  color: white;
+  text-align: center;
+  height:10%;
+  max-height: 50px;
+  min-height: 10px;
+  padding: 10px 10px;
+  margin-top: 30px;
+}
