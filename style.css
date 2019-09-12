@@ -1,24 +1,126 @@
 body {
-  background-color: #EFEFEF;
-  color: #A9A9A9;
-  font-family: "Book Antiqua", serif; 
+  background-color: #f3f3e3;
+  font-family: Helvetica, sans-serif;
+  width: 75%;
+  margin: 0 auto;
+ }
+  
+ h1 {
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  color: black;
+  font-size: 3em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+
+ #titulo1prima{
+   width: 50%;
+   color: blue;
+ }
+  
+  
+ .titulo2 {
+  padding-top: 3em;
+  padding-bottom: 10px;
+  padding-left: 10px;  
+  padding-right: 10px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ h2 {
+  padding-top: 30px;
+ padding-bottom: 15px;
+ padding-left: 10px;
+ padding-right: 10px;
+ color: black;
+ font-family: 'Courier New', Courier, monospace;
 }
-h1 {
-  color: #FF3B3F;
-}
-h2 {
-  position: relative;
-  left: 1em;
-}
-div {
-  position: relative;
-  left: 4em;
-  background-color: #CAEBF2;
-  width: 80%;
-}
-h3 {
-  color: #FF3B3F;
-}
-p {
-  width: 90%;
-}
+ 
+ h3 {
+   padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #06023852;
+  color: blue;
+  font-family: 'Courier New', Courier, monospace;
+ }
+
+ div{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+ }
+
+ .div70{
+   width: 60%;
+   float: left;
+ }
+
+ .div30{
+   width:35%;
+   float: right;
+ }
+
+ section p:hover{
+  background-color: white;
+ }
+
+ #frenchFries{
+   color: black;
+ }
+
+ section a:active{
+   background-color: aqua;
+ }
+  
+ ol,ul {
+   padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 45px;
+  padding-right: 15px;
+ }
+  
+ li {
+   font-weight: bold; 
+   color: black;
+ }
+
+ .div100{
+  text-align: center;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  width: 100%;
+  float: left;
+ }
+  
+ p {
+   padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+ }
+
+ footer{
+   width: 100%;
+   float: left;
+ }
+  
+ 
+ /*
+ Here are the color HEX code used above:
+ 
+ light yellow: #ffff99
+ medium yellow: #ffcc00
+ orange: #ff6600
+ Here are the fonts used above:
+ 
+ Helvetica
+ Impact
+ Courier New
+ */
