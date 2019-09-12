@@ -1,53 +1,24 @@
 body {
-  background-color: #4ABDAC;
-  color: #FFFFFF;
-  font-family: Georgia, serif;
+  background-color: #EFEFEF;
+  color: #A9A9A9;
+  font-family: "Book Antiqua", serif; 
 }
-header {
-  background-color: #F7B733;
-  height: 75px;
-}
-
 h1 {
-  padding: 15px;
-  float: left;
-  margin: auto;
+  color: #FF3B3F;
 }
-h2{
-  padding: 15px;
-  float: right;
-  margin: auto;
-}
-li{
-  float: right;
-  padding: 5px 5px;
-  list-style-type: none; 
-}
-#navigation {
-  height: 30px;
-  width: 30%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#navigation li:hover {
-  border-bottom: 1px #FC4A1A solid;
-}
-#content {
-  background-color: #DFDCE3;
-  width: 50%;
-  margin: 0 auto;
+h2 {
+  position: relative;
+  left: 1em;
 }
 div {
-  background-color: #FC4A1A;
-  width: 250px;
-  height: 150px;
-  padding: 10px;
-  margin: 20px;
+  position: relative;
+  left: 4em;
+  background-color: #CAEBF2;
+  width: 80%;
 }
-
-#topRight,#bottomRight{
-  float: right;
-  margin-top: 0px;
+h3 {
+  color: #FF3B3F;
 }
-
+p {
+  width: 90%;
+}
